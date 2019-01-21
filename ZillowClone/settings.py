@@ -31,13 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+   # 'Pages.apps.ZillowConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Zillow.apps.ZillowConfig',
+    'Pages.apps.ZillowConfig',
 ]
 
 MIDDLEWARE = [

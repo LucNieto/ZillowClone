@@ -128,3 +128,9 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/django
+
+# Pycharm files
+.idea
+
+# sql DB
+db.sqlite3
